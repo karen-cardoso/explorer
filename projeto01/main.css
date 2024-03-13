@@ -2,6 +2,14 @@ h1 {
   font-family: 'Inter', sans-serif;
 }
 
+h1 span {
+  color: #FF9900;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  color: #7D7987;
 }
