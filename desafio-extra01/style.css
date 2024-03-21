@@ -1,8 +1,84 @@
   body {
+
     margin: 0;
     text-align: center;
+
+    font-family: Open Sans, sans-serif;
+  }
+
+  #main {
+    width: 626px;
+    height: 486px;
+
+    margin: 64px auto;
   }
 
   h1 {
-    font-size: 3em;
+    color: #3F3D56;
+    font-family: Dosis, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  h1 strong {
+    color: #EE24FF;
+  }
+
+  p {
+    color: #828282;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 540px;
+    height: 107px;
+
+    margin: 0 auto;
+  }
+
+  p strong {
+    color: #3F3D56;
+  }
+
+  p span {
+    font-weight: 700;
+  }
+
+  #ofertas {
+    width: 626px;
+    margin-top: 32px;
+  }
+
+  #line {
+    border: 1px solid #ECEFF2;
+    width: 391px;
+    height: 0px;
+
+    margin: 16px auto;
+  }
+
+  ul {
+    display: flex;
+    gap: 42px;
+
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  ul li a {
+    color: #3F3D56;
+    font-weight: 700;
+    text-decoration-line: none;
+  }
+
+  #waves {
+    width: 1024px;
+    height: 104px;
+
+    fill: #3F3D56;
+
+    margin: 0 auto;
   }
